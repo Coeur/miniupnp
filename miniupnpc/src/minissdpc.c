@@ -915,7 +915,7 @@ ssdpDiscoverDevices(const char * const deviceTypes[],
 						fprintf(stderr, "host:%s port:%s\n", hbuf, sbuf);
 					}
 #endif
-					PRINT_SOCKET_ERROR("sendto");
+					//PRINT_SOCKET_ERROR("sendto");
 					continue;
 				} else {
 					sentok = 1;
